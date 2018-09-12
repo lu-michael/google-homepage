@@ -1,60 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="GooglePage.css" />
-</head>
-<body>
-    <div class="navBar">
-        <ul>
-            <li><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">
-                About</a></li>
-            <li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">
-                Store</a></li>
-            <li style="float: right; height:30px; width:30px;"><img src="AccountButton.png"></li>
-            <li style="float: right; height:30px; width:30px;"><img src="NotificationsButton.png"></li>
-            <li style="float: right; height:30px; width:30px;"><img src="SettingsButton.png"></li>
-            <li style="float: right; "><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
-            <li style="float: right;"><a href="https://www.gmail.com">Gmail</a></li>            
-        </ul>
-    </div>
-
-    <div class="GoogleLogo">
-        <img src = "Google.png" height="100" width="300">
-    </div>
-    <form id="Search" action="search.php" method="GET">
-        <table>
-            <tr>
-                <td colspan="2">
-                    <input type="text" name="searchBox" style="display: block; padding: 5px 50px;">
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <input type="submit" name="searchButton" value="Google Search" >
-                </td>
-
-                <td>
-                    <input type="submit" name="feelingLucky" value="I'm Feeling Lucky">
-                </td>
-            </tr>
-        </table>
-    </form>
-
-
-    <div class="footer">
-        <ul>
-            <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
-                Advertising</a></li>
-            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">
-                Business</a></li>
-            <li style="float: right;"><a href="https://www.google.com">Settings</a></li>
-            <li style="float: right;"><a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a></li>
-            <li style="float: right;"><a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
-            
-            
-        </ul>
-    </div>
-</body> 
+	<head>
+		<link rel="stylesheet" type="text/css" href="GooglePage.css">
+		<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+		<title>Google</title>
+	</head>
+	<body>
+		<header>
+			<a href="https://plus.google.com/u/0/up/follow">+Michael</a>
+			<a href="https://mail.google.com">Gmail</a>
+			<a href="https://www.google.com/imghp?hl=en&tab=wi&ei=Ox1NVMXuJYO3yATCjoFA&ved=0CAQQqi4oAg">Images</a>
+			<img id="products" src="products.png"/>
+			<img id="bell" src="bell.png"/>
+			<img id="share" src="share.png"/>
+			<img id="Michael" class="headerpics" src=""/>
+		</header>
+		<div>
+			<img src="https://www.google.com/images/srpr/logo11w.png"/>
+			<form name="google" action="https://www.google.com/" method="POST"><br>
+				<input type="search" class="searchBar"><br>
+				<input type="submit" class="button" name="submit" value="Google Search">
+				<input type="submit" class="button" name="lucky" value="I'm Feeling Lucky">
+			</form>
+		</div>
+		<footer>
+			<a class="leftlinks" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+			<a class="leftlinks" href="https://www.google.com/services/?fg=1">Business</a>
+			<a class="leftlinks" href="https://www.google.com/intl/en/about/">About</a>
+			<a class="rightlinks" href="https://www.google.com/preferences?hl=en">Settings</a>
+			<a class="rightlinks" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a>
+		</footer>
+	</body>
 </html>
+
